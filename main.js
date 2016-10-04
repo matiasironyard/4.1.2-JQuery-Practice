@@ -18,7 +18,7 @@ navRow.click(function(event){
   event.preventDefault();
   menuItems.slideUp();//makes all other menu-items slide up
   //when the navRow is not clicked.
-  $(this).next().children().slideToggle(500);
+  $(this).next().children().slideDown(500);
   $(this).css('background-color', '#849A32');
 });
 
