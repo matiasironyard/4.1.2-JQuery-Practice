@@ -1,0 +1,50 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{
+  background-color: orange;
+}
+
+.container{
+  background-color: yellow;
+  width: 255px;
+  .nav-row{
+    background-color: #4E5054;
+    display: inline-flex;
+    height: 35px;
+  }
+  .nav-row:hover{
+    background-color: #849A32;
+  }
+    .icon{
+      width: 40px;
+    }
+    .title{
+      width: 150px;
+    }
+    .counter{
+      width: 65px;
+    }
+
+  .menu-list{
+    background-color: #E1E1E1;
+    display: block;
+    li{
+      background-color: #E1E1E1;
+      border-bottom: 1px solid #C2C2C2;
+      list-style: none;
+    }
+    .i-number{
+      width: 10%;
+    }
+    .i-title{
+      width: 10%;
+    }
+    .i-counter{
+      width: 10%;
+    }
+  }
+}
