@@ -5812,9 +5812,10 @@ body {
   background-color: orange; }
 
 .container {
-  background-color: yellow;
+  background-color: #3C3C3D;
   width: 255px; }
   .container .nav-row {
+    position: relative;
     background-color: #4E5054;
     display: inline-flex;
     height: 35px; }
