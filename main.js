@@ -11,7 +11,7 @@ menuItems.hide();
 
 navRow.click(function(event){
   event.preventDefault();
-  navRow.css('background-color', '#4E5054');
+  navRow.css('background-color', '#4E5052');
 });
 
 navRow.click(function(event){
