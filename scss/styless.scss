@@ -5,35 +5,68 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 body{
+  position: relative;
+  top: 100px;
   background-color: orange;
 }
 
 .container{
   background-color: #3C3C3D;
   width: 255px;
+  border: 3px solid #3C3C3D;
+  width: 261px;
+}
   .nav-row{
     position: relative;
     background-color: #4E5054;
+    border-bottom: 2px solid #353535;
     display: inline-flex;
     height: 35px;
   }
   .nav-row:hover{
     background-color: #849A32;
+      // .title{
+      //   color: black;
+      // }
   }
     .icon{
       width: 40px;
     }
+    .fa{
+      position: relative;
+      top: 5px;
+      left: 10px;
+      color: white;
+      font-size: 15px;
+    }
     .title{
+      position: relative;
+      top: 5px;
       width: 150px;
+      color: #ffffff;
     }
     .counter{
+      position: relative;
+      top: 5px;
       width: 65px;
+      .counter-box{
+        text-align: center;
+        width: 40px;
+        height: 20px;
+        color: #ffffff;
+        background-color: #383A3E;
+        border-radius: 10px;
+      }
+
     }
 
   .menu-list{
     background-color: #E1E1E1;
     display: block;
+    padding-left: 10px;
+    margin: 0px;
     li{
+      position: relative;
       background-color: #E1E1E1;
       border-bottom: 1px solid #C2C2C2;
       list-style: none;
@@ -47,5 +80,22 @@ body{
     .i-counter{
       width: 10%;
     }
-  }
+    span{
+      color: #6D6E77;
+      font-size: 15px;
+    }
+    .list-title{
+      position: relative;
+      left: 8px;
+    }
+    .list-counter{
+      display: inline;
+      position: absolute;
+      top: 1px;
+      left: 192px;
+      width: 40px;
+      height: 15px;
+      color: #6D6E77;
+    }
+
 }
